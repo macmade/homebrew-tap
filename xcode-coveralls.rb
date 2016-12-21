@@ -1,8 +1,8 @@
 class XcodeCoveralls < Formula
   desc "A tool to upload code coverage from Xcode to coveralls.io."
   homepage "https://macmade.github.io/xcode-coveralls"
-  url "https://github.com/macmade/xcode-coveralls/archive/0.1.2.tar.gz"
-  sha256 "3ecbf75ed9bd0b62d56ec6b56d29dc73cc0feb96259d6b55bf278b40c5ba7197"
+  url "https://github.com/macmade/xcode-coveralls/archive/0.1.3.tar.gz"
+  sha256 "e43cc8c4985e3d409e92088738c9b0d3b67c9d9924ea79b1dd7dbf779bc388e5"
   
   depends_on :xcode => 6.0
   
