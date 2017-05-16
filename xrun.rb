@@ -1,4 +1,4 @@
-class xrun < Formula
+class Xrun < Formula
   desc "xrun is a drop-in replacement for Apple's xcodebuild or Facebook's xctool."
   homepage "https://macmade.github.io/xrun/"
   url "https://github.com/macmade/xrun/archive/0.0.0.tar.gz"
