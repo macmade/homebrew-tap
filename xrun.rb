@@ -3,6 +3,7 @@ class Xrun < Formula
   homepage "https://macmade.github.io/xrun/"
   url "https://github.com/macmade/xrun/archive/0.0.0.tar.gz"
   sha256 "dda2ac73e8cb00ce86f08dd514a7bbf291fbcffe68732a5d2410493a95eaece7"
+  head "https://github.com/macmade/xrun", :using => :git, :branch => :master
   
   depends_on :xcode => 6.0
   
