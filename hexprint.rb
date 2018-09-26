@@ -1,6 +1,6 @@
 class Hexprint < Formula
   desc "A command line tool that displays a file's content as an hexadecimal dump."
-  head "https://github.com/macmade/HexPrint", :using => :git, :branch => :master
+  head "https://github.com/macmade/HexPrint", :using => :git, :branch => "master"
   
   depends_on :xcode => 8.0
   
