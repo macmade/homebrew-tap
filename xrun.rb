@@ -3,7 +3,7 @@ class Xrun < Formula
   homepage "https://macmade.github.io/xrun/"
   head "https://github.com/macmade/xrun", :using => :git, :branch => "master"
   
-  depends_on :xcode => 6.0
+  depends_on :xcode => "6.0"
   
   def install
     xcodebuild "SDKROOT=", "SYMROOT=build"
