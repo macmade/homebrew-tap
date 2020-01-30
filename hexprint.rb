@@ -5,7 +5,7 @@ class Hexprint < Formula
   depends_on :xcode => "8.0"
   
   def install
-    make
+    xcodebuild "SDKROOT=", "SYMROOT=build"
     bin.install "build/hexprint"
   end
   
