@@ -1,6 +1,6 @@
 class VboxMonitor < Formula
   desc "Monitoring/Debug tool for VirtualBox."
-  head "https://github.com/macmade/vbox-monitor", :using => :git, :branch => "master"
+  head "https://github.com/macmade/vbox-monitor", :using => :git, :branch => "main"
   
   depends_on :xcode => "10.0"
   

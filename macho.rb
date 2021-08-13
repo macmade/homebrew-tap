@@ -1,6 +1,6 @@
 class Macho < Formula
   desc "Mach-O file parser."
-  head "https://github.com/macmade/macho", :using => :git, :branch => "master"
+  head "https://github.com/macmade/macho", :using => :git, :branch => "main"
   
   depends_on :xcode => "10.0"
   

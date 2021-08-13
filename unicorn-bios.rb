@@ -1,6 +1,6 @@
 class UnicornBios < Formula
   desc "Basic BIOS emulator for Unicorn Engine."
-  head "https://github.com/macmade/unicorn-bios", :using => :git, :branch => "master"
+  head "https://github.com/macmade/unicorn-bios", :using => :git, :branch => "main"
   
   depends_on :xcode => "10.0"
   

@@ -1,6 +1,6 @@
 class GitBranchStatus < Formula
   desc "Branch status monitoring utility for Git."
-  head "https://github.com/macmade/git-branch-status", :using => :git, :branch => "master"
+  head "https://github.com/macmade/git-branch-status", :using => :git, :branch => "main"
   
   depends_on :xcode => "10.0"
   
