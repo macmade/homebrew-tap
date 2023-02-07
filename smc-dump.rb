@@ -5,7 +5,7 @@ class SmcDump < Formula
   depends_on :xcode => "8.0"
   
   def install
-    xcodebuild "SDKROOT=", "SYMROOT=build"
+    xcodebuild "-scheme", "smc-dump", "SDKROOT=", "SYMROOT=build", "CODE_SIGN_IDENTITY=", "CODE_SIGNING_REQUIRED=NO"
     bin.install "build/Release/smc-dump"
   end
   
