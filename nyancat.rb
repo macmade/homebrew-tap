@@ -1,6 +1,6 @@
 class Nyancat < Formula
   desc "nyancat"
-  head "https://github.com/klange/nyancat", :using => :git, :branch => "main"
+  head "https://github.com/klange/nyancat", :using => :git, :branch => "master"
   
   depends_on :xcode => "10.0"
   
