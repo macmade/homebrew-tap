@@ -5,7 +5,7 @@ class Nyancat < Formula
   depends_on :xcode => "10.0"
   
   def install
-    make
+    system "make"
     bin.install "src/nyancat"
   end
 end
