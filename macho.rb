@@ -5,7 +5,7 @@ class Macho < Formula
   depends_on :xcode => "10.0"
   
   def install
-    xcodebuild "SDKROOT=", "SYMROOT=build"
+    xcodebuild "SDKROOT=", "SYMROOT=build", "CODE_SIGN_IDENTITY=", "CODE_SIGNING_REQUIRED=NO", "CODE_SIGNING_ALLOWED=NO"
     bin.install "build/Release/macho"
   end
   
